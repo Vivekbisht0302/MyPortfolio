@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivek's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c26812a1aa.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 id="logoname"><span>V</span>ivek.</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas2 fas fa-solid fa-bars"onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hii, I'm <span>Vivek</span><br>
+                a passionate <br>
+                <span id="element">Web Developer</span>
+                </h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------- about ----------------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                        In aspernatur odio inventore rem eum, voluptate perferendis 
+                        velit provident ipsam cum pariatur fuga explicabo autem mollitia 
+                        adipisci veritatis reiciendis deserunt sint reprehenderit nemo?
+                         Incidunt a mollitia quae placeat eos velit harum?</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Eduction</p>
+                    </div>
+                    <!-- Skills -->
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI|UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Web Developer</span><br>Web App Development</li>
+                            <li><span>App Developer</span><br>Building Mobile Apps</li>
+                        </ul>
+                    </div>
+
+                    <!-- Experience -->
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Experience</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Web Developer</span><br>Web App Development</li>
+                            <li><span>App Developer</span><br>Building Mobile Apps</li>
+                        </ul>
+                    </div>
+
+                    <!-- Eduction -->
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Eduction</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Web Developer</span><br>Web App Development</li>
+                            <li><span>App Developer</span><br>Building Mobile Apps</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+  <!-- ----------------- Services ----------------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web design</h2>
+                    <p>Lorem ipsum dolor sit, 
+                        amet consectetur adipisicing elit. 
+                        Sapiente sequi dolores, aliquid voluptatibus 
+                        deserunt ipsum quas repellendus consequatur 
+                        harum blanditiis veritatis totam neque illo? 
+                        Voluptates veritatis similique nihil dolores 
+                        in!</p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX design</h2>
+                    <p>Lorem ipsum dolor sit, 
+                        amet consectetur adipisicing elit. 
+                        Sapiente sequi dolores, aliquid voluptatibus 
+                        deserunt ipsum quas repellendus consequatur 
+                        harum blanditiis veritatis totam neque illo? 
+                        Voluptates veritatis similique nihil dolores 
+                        in!</p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App design</h2>
+                    <p>Lorem ipsum dolor sit, 
+                        amet consectetur adipisicing elit. 
+                        Sapiente sequi dolores, aliquid voluptatibus 
+                        deserunt ipsum quas repellendus consequatur 
+                        harum blanditiis veritatis totam neque illo? 
+                        Voluptates veritatis similique nihil dolores 
+                        in!</p>
+                        <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+ <!-- ----------------- portfolio ----------------- -->
+    
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Possimus nesciunt exercitationem praesentium vero voluptate 
+                            nisi similique dolor dicta optio amet!</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Possimus nesciunt exercitationem praesentium vero voluptate 
+                            nisi similique dolor dicta optio amet!</p>
+                            
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Possimus nesciunt exercitationem praesentium vero voluptate 
+                            nisi similique dolor dicta optio amet!</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+ <!-- ----------------- contact ----------------- -->
+    
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>bishtvivek0302@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>9760022097</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" target="_blank" download class="btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" id="" placeholder="Your Email" required>
+                        <textarea name="Message" placeholder="Your Message"  rows="6"></textarea>
+                        <button type="submit" class="btn3" onclick="subClick()">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright ©️ Vivek.<i class="fa-brands fa-html5"></i>  <i class="fa-brands fa-css3-alt"></i>  <i class="fa-brands fa-js"></i>  <i class="fa-brands fa-react"></i></p>
+        </div>
+    </div>
+
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: [' Student', ' Web Developer ',' Video Editor','&amp; an efficent problem Solver. '],
+          typeSpeed: 75,
+        });
+      </script>
+      <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+      </script>
+
+      <script>
+        var sidemenu=document.getElementById("sidemenu");
+        var msg=document.getElementById("msg");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+        function subClick(){
+            setTimeout(()=>{
+                msg.innerHTML="message sent ✅";
+            },1000);
+            form.reset();
+            setTimeout(()=>{
+                msg.innerHTML="";
+            },2000);
+        }
+      </script>
+      
+</body>
+</html>
